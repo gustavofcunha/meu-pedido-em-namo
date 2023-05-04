@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+:root {
+  ---imagem: 'img-edit-cv.png'
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Fredoka One', cursive;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgb(5, 22, 104), rgb(75, 97, 206), rgb(5, 22, 104));
+}
+
+main {
+  width: 320px;
+  height: 320px;
+  background-color: rgb(204, 31, 31);
+  border: 4px solid rgb(255,255,255,0.9);
+  position: relative;
+  border-radius: 20px;
+}
+
+
+h1 {
+  font-size: 1.6em;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 200;
+  color: rgba(0,0,0,0.9);
+}
+
+.menor {
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: rgb(117, 9, 9);
+  color: rgb(255, 255, 255)
+}
+
+.bnt2 {
+  margin-left: 50px;
+}
+
+.maior2 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  opacity: 95%;
+}
